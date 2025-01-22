@@ -13,7 +13,7 @@ function Navbar() {
       <nav className="h-16 fixed z-30 text-white flex justify-between  items-center px-5 md:px-10 bg-zinc-900 w-full">
         <h2 className="font-semibold text-xl">Logo</h2>
         <div className="navlinks hidden md:flex font-semibold  gap-5">
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>
